@@ -3,10 +3,7 @@ import 'package:flutter/material.dart';
 import '../data/models/product.dart';
 
 class ProductWidget extends StatelessWidget {
-  const ProductWidget({
-    super.key,
-    required this.product,
-  });
+  const ProductWidget({super.key, required this.product});
 
   final Product product;
 
