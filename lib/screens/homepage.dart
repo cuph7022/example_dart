@@ -19,19 +19,13 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amber,
-        leading: IconButton(
-          onPressed: () {},
-          icon: const Icon(Icons.menu),
-        ),
+        leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
         title: const Text('Homepage'),
         centerTitle: true,
         actions: [
           TextButton(
             onPressed: () {},
-            child: const Text(
-              'Login',
-              style: TextStyle(color: Colors.black),
-            ),
+            child: const Text('Login', style: TextStyle(color: Colors.black)),
           ),
         ],
       ),
